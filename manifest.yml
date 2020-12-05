@@ -1,0 +1,8 @@
+---
+applications:
+  - name: upc-tsw-ef-react-u201623578
+    memory: 128MB
+    instances: 1
+    buildpacks:
+      - staticfile_buildpack
+    stack: cflinuxfs3
